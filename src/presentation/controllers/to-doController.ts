@@ -4,7 +4,9 @@ import { Request, Response } from "express"
 const todos = [
     { id: 1, text: 'Buy groceries', completed: false },
     { id: 2, text: 'Walk the dog', completed: true },
-    { id: 3, text: 'Do laundry', completed: false }
+    { id: 4, text: 'Do running', completed: false },
+    { id: 5, text: 'Do it', completed: false },
+    { id: 6, text: 'Do ....', completed: false },
   ];
 
 export class TodoController{
